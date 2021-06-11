@@ -1,0 +1,10 @@
++---------------------------------------------------------------------+-------------------+-------------------+-----------+-------------------------------------------------------------+
+|                              Alarm Name                             |     StateValue    |     MetricName    | Threshold |                         Alarm Action                        |
++---------------------------------------------------------------------+-------------------+-------------------+-----------+-------------------------------------------------------------+
+|              awsec2-i-0ac16ac135cb00784-CPU-Utilization             | INSUFFICIENT_DATA |   CPUUtilization  |    90.0   |                              []                             |
+|               cfn-test-cw-CPUAlarmWARNING-HETQ7KECKFDQ              | INSUFFICIENT_DATA |   CPUUtilization  |    92.0   | ['arn:aws:sns:us-east-1:569177097303:sns-topic-cw-testing'] |
+|             cfn-test-cw-MemoryAlarmWARNING-IO65OE7MT8RY             | INSUFFICIENT_DATA |  mem_used_percent |    92.0   | ['arn:aws:sns:us-east-1:569177097303:sns-topic-cw-testing'] |
+|          cfn-test-cw-SystemStatusAlarmWarning-R6QNMXHJQJK4          | INSUFFICIENT_DATA | StatusCheckFailed |    0.0    | ['arn:aws:sns:us-east-1:569177097303:sns-topic-cw-testing'] |
+|   cwStatusCheckFailedAlarm-SystemStatusAlarmMgmtAsgVPN-ZQ396UHNDHL  | INSUFFICIENT_DATA | StatusCheckFailed |    0.0    | ['arn:aws:sns:us-east-1:569177097303:sns-topic-cw-testing'] |
+| cwStatusCheckFailedAlarm-SystemStatusAlarmMgmtBastion-1H7URSYHREO80 | INSUFFICIENT_DATA | StatusCheckFailed |    0.0    | ['arn:aws:sns:us-east-1:569177097303:sns-topic-cw-testing'] |
++---------------------------------------------------------------------+-------------------+-------------------+-----------+-------------------------------------------------------------+
