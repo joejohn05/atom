@@ -1,0 +1,10 @@
+-
+The second instance where there was no alert from Uptime (6:55 am IST)
+
+
+
+- June 9th  : The Last alert was fired at 8:35 AM IST and no alerts throughout the day. (considering the previous trends this odd)
+- June 10th : First alert @ 6:59 AM IST and this was the Monitor up notification . During this time frame direct booker was down for approximately 1hr 36 mins and we didn't get any notification.Client reported this and RCA is being prepared.The rest of the day it was working as expected.
+- June 11th : Last alert was at 6:55 AM IST and no alerts so far. (considering the previous trends this odd) . Doing a random check on the configured alerts noticed the alert for fully is showing down alert-fully-www.fully.com from last 10 hrs but the site is loading fine and no notification on this.
+
+There is some issue going on and could find any history of outage at their side .I couldn't find the option to raise a support ticket for them .
